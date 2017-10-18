@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Bowling.Library;
+using Bowling.InputAlley;
 
 namespace Bowling.Printer
 {

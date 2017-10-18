@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bowling.Library
+namespace Bowling.InputAlley
 {
     public class Boundary
     {

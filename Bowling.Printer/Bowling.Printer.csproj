@@ -44,6 +44,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Bowling.InputAlley\Bowling.InputAlley.csproj">
+      <Project>{a918ce5d-4cd4-449e-89a5-e1d79e0ad59e}</Project>
+      <Name>Bowling.InputAlley</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Bowling.Library\Bowling.Library.csproj">
       <Project>{4a70d231-1c45-4343-8028-65c2fb7ddc9f}</Project>
       <Name>Bowling.Library</Name>

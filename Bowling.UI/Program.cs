@@ -21,8 +21,7 @@ namespace Bowling.UI
             AlleyPrinter printer = new AlleyPrinter();
             while (count < numberOfThrow)
             {
-                game = new Game(alleyObjects.GetInputAlley());
-                game.ThrowNumber = count + 1;
+                game = new Game(alleyObjects.GetInputAlley(),(count+1));
                 printer = new AlleyPrinter(game);
                 game.Bowling();
                 System.Threading.Thread.Sleep(1000);

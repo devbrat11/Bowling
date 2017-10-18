@@ -11,16 +11,17 @@ namespace Bowling.Library
         static public int TotalScore { get; private set; }
         static public List<int> numberOfBottlesFallInEachThrow = new List<int>();
         static public List<int> ThrowScore = new List<int>();
-        public int ThrowNumber { get; set; }
+        public int ThrowNumber { get; private set; }
 
         public Alley alley;
         public Ball ball;
        
         public Game() { }
-        public Game(Object[,] alleyObjects)
+        public Game(Object[,] alleyObjects, int throwNumber)
         {
             alley = new Alley(alleyObjects);
             ball = new Ball(alley);
+            ThrowNumber = throwNumber;
         }
         public int Bowling()
         {

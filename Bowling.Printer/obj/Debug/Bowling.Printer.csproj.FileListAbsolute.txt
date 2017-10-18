@@ -12,3 +12,5 @@ C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.Printer\bin\Debug\Bowlin
 C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.Printer\obj\Debug\Bowling.Printer.csprojResolveAssemblyReference.cache
 C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.Printer\obj\Debug\Bowling.Printer.dll
 C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.Printer\obj\Debug\Bowling.Printer.pdb
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.Printer\bin\Debug\Bowling.InputAlley.dll
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.Printer\bin\Debug\Bowling.InputAlley.pdb

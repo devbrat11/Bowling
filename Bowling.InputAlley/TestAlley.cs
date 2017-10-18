@@ -13,8 +13,8 @@ namespace Bowling.InputAlley
         Boundary[] CloseBound = new Boundary[5];
         Boundary Boundary = new Boundary(false);
         Space[] CellSpaces = new Space[5];
-        BowlingPins[] AlleyBotl1 = new BowlingPins[5];
-        BowlingPins[] AlleyBotl2 = new BowlingPins[5];
+        BowlingPins[] AlleyPins1 = new BowlingPins[5];
+        BowlingPins[] AlleyPins2 = new BowlingPins[5];
 
         public Object[,] GetInputAlley()
         {
@@ -22,8 +22,8 @@ namespace Bowling.InputAlley
             return new Object[,]
                 {
                     {FilPoint,CloseBound,FilPoint},
-                    {Boundary,AlleyBotl1,Boundary},
-                    {Boundary,AlleyBotl2,Boundary},
+                    {Boundary,AlleyPins1,Boundary},
+                    {Boundary,AlleyPins2,Boundary},
                     {Boundary,CellSpaces,Boundary},
                     {Boundary,CellSpaces,Boundary},
                     {Boundary,CellSpaces,Boundary},
@@ -38,13 +38,13 @@ namespace Bowling.InputAlley
 
         private void AlleyObjectsInitialisation()
         {
-            for (int i = 0; i < AlleyBotl1.Count(); i++)
+            for (int i = 0; i < AlleyPins1.Count(); i++)
             {
-                AlleyBotl1[i] = new BowlingPins(false);
+                AlleyPins1[i] = new BowlingPins(false);
             }
-            for (int i = 0; i < AlleyBotl2.Count(); i++)
+            for (int i = 0; i < AlleyPins2.Count(); i++)
             {
-                AlleyBotl2[i] = new BowlingPins(false);
+                AlleyPins2[i] = new BowlingPins(false);
             }
             for (int i = 0; i < CellSpaces.Count(); i++)
             {
