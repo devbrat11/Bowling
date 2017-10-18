@@ -1,0 +1,4 @@
+c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.Library\bin\Debug\Bowling.Library.dll
+c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.Library\bin\Debug\Bowling.Library.pdb
+c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.Library\obj\Debug\Bowling.Library.dll
+c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.Library\obj\Debug\Bowling.Library.pdb

@@ -1,0 +1,6 @@
+c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.InputAlley\bin\Debug\Bowling.InputAlley.dll
+c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.InputAlley\bin\Debug\Bowling.InputAlley.pdb
+c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.InputAlley\bin\Debug\Bowling.Library.dll
+c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.InputAlley\bin\Debug\Bowling.Library.pdb
+c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.InputAlley\obj\Debug\Bowling.InputAlley.dll
+c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.InputAlley\obj\Debug\Bowling.InputAlley.pdb

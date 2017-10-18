@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling.Library", "Bowling.Library\Bowling.Library.csproj", "{4A70D231-1C45-4343-8028-65C2FB7DDC9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling.Printer", "Bowling.Printer\Bowling.Printer.csproj", "{AC4BAEDF-3CD3-438E-BCE1-FD498CA1D5EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling.UI", "Bowling.UI\Bowling.UI.csproj", "{E1C37E08-BF51-4CA8-8F99-C236F3BF8A7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling.InputAlley", "Bowling.InputAlley\Bowling.InputAlley.csproj", "{A918CE5D-4CD4-449E-89A5-E1D79E0AD59E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A70D231-1C45-4343-8028-65C2FB7DDC9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A70D231-1C45-4343-8028-65C2FB7DDC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A70D231-1C45-4343-8028-65C2FB7DDC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A70D231-1C45-4343-8028-65C2FB7DDC9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC4BAEDF-3CD3-438E-BCE1-FD498CA1D5EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4BAEDF-3CD3-438E-BCE1-FD498CA1D5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4BAEDF-3CD3-438E-BCE1-FD498CA1D5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4BAEDF-3CD3-438E-BCE1-FD498CA1D5EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1C37E08-BF51-4CA8-8F99-C236F3BF8A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C37E08-BF51-4CA8-8F99-C236F3BF8A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1C37E08-BF51-4CA8-8F99-C236F3BF8A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C37E08-BF51-4CA8-8F99-C236F3BF8A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A918CE5D-4CD4-449E-89A5-E1D79E0AD59E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A918CE5D-4CD4-449E-89A5-E1D79E0AD59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A918CE5D-4CD4-449E-89A5-E1D79E0AD59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A918CE5D-4CD4-449E-89A5-E1D79E0AD59E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

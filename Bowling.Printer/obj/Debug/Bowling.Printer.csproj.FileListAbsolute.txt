@@ -1,0 +1,7 @@
+c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.Printer\bin\Debug\Bowling.Printer.dll
+c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.Printer\bin\Debug\Bowling.Printer.pdb
+c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.Printer\bin\Debug\Bowling.Library.dll
+c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.Printer\bin\Debug\Bowling.Library.pdb
+c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.Printer\obj\Debug\Bowling.Printer.csprojResolveAssemblyReference.cache
+c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.Printer\obj\Debug\Bowling.Printer.dll
+c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.Printer\obj\Debug\Bowling.Printer.pdb
