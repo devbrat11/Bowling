@@ -8,31 +8,55 @@ namespace Bowling.Library
 {
     public class Game
     {
-        public int[] ThrowScore = new int[3];
-        public int CalculateScore(int[] numberOfBottlesFallen)
+        static public int TotalScore { get; private set; }
+        static public List<int> numberOfBottlesFallInEachThrow = new List<int>();
+        static public List<int> ThrowScore = new List<int>();
+        public int ThrowNumber { get; set; }
+
+        public Alley alley;
+        public Ball ball;
+       
+        public Game() { }
+        public Game(Object[,] alleyObjects)
         {
-            int Score = 0;
+            alley = new Alley(alleyObjects);
+            ball = new Ball(alley);
+        }
+        public int Bowling()
+        {
+            ball.ThrowBall();
+            numberOfBottlesFallInEachThrow.Add(ball.NumberOfBottlesFall);
+            return ball.NumberOfBottlesFall;
+        }
+
+        public void  CalculateScore()
+        {
+            int Score;
             bool perfectHit = false;
-            for (int i = 0; i < numberOfBottlesFallen.Count(); i++)
+            int chance = 1;
+            foreach (var value in numberOfBottlesFallInEachThrow)
             {
-                if (numberOfBottlesFallen[i] == 10 && perfectHit != true)
+                Score = 0;
+                if (value == 10 && perfectHit != true)
                 {
-                    if (i == 1) Score = Score + 10;
-                    else if (i == 2) Score = Score - 3;
+                    if (chance == 1) Score = Score + 10;
+                    else if (chance == 2) Score = Score - 3;
                     else Score = Score - 6;
                     perfectHit = true;
                 }
-                else if (numberOfBottlesFallen[i] < 10 && numberOfBottlesFallen[i] > 6)
+                else if (value < 10 && value > 6)
                 {
                     Score = Score + 2;
                 }
-                else if (numberOfBottlesFallen[i] < 7 && numberOfBottlesFallen[i] > 0)
+                else if (value < 7 && value > 0)
                 {
                     Score = Score + 1;
                 }
-                ThrowScore[i] = Score;
+                TotalScore = TotalScore + Score;
+                ThrowScore.Add(Score);
+                chance++;
             }
-            return Score;
+            
         }
     }
 }

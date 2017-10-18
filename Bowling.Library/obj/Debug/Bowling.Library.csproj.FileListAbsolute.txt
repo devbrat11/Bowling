@@ -2,3 +2,8 @@ c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.Library\
 c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.Library\bin\Debug\Bowling.Library.pdb
 c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.Library\obj\Debug\Bowling.Library.dll
 c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.Library\obj\Debug\Bowling.Library.pdb
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.Library\bin\Debug\Bowling.Library.dll
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.Library\bin\Debug\Bowling.Library.pdb
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.Library\obj\Debug\Bowling.Library.dll
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.Library\obj\Debug\Bowling.Library.pdb
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.Library\obj\Debug\Bowling.Library.csprojResolveAssemblyReference.cache

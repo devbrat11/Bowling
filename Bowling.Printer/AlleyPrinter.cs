@@ -11,49 +11,73 @@ namespace Bowling.Printer
     {
         Alley _alley;
         Ball _ball;
-        public AlleyPrinter(Alley alley, Ball ball)
+
+        public AlleyPrinter() { }
+        public AlleyPrinter(Game game)
         {
-            _alley= alley;
-            _ball = ball;
-            _ball.Move+=()=>PrintCurrentState();
+            _alley = game.alley;
+            _ball = game.ball;
+            _ball.Move += () => PrintCurrentState(game.ThrowNumber);
             _ball.Hit += () =>
             {
-                _alley.BottlesHitted();
                 Console.Clear();
-                Display();
-                SetSolvedStatusPosition();
+                DisplayAlley();
+                PrintThrowNumber(game.ThrowNumber);
+                SetGameStatusPosition();
             };
         }
 
-        private void PrintCurrentState()
+        public void DisplayScore()
+        {
+            int count=0;
+            Console.WriteLine("Throw #   Number Of Pins Fall   ThrowScore");
+            while(count<3)
+            {
+                Console.WriteLine("   "+(count+1)+"\t\t"+Game.numberOfBottlesFallInEachThrow.ElementAt(count)+
+                    "\t\t  "+Game.ThrowScore.ElementAt(count));
+                count++;
+            }
+            Console.WriteLine("\nTotal Score :" + Game.TotalScore);
+        }
+
+        private void PrintThrowNumber(int throwNumber)
+        {
+            Console.SetCursorPosition(10, 5);
+            Console.WriteLine("Throw # "+throwNumber);
+            
+        }
+
+        private void PrintCurrentState(int throwNumber)
         {
             Console.Clear();
-            Display();
-            PrintVisitedCell(_ball.LocationCell);
+            
+            DisplayAlley();
+            PrintThrowNumber(throwNumber);
+            PrintBallPosition(_ball.LocationCell);
             System.Threading.Thread.Sleep(500);
         }
 
-        private void PrintVisitedCell(int cellIndex)
+        private void PrintBallPosition(int cellIndex)
         {
             Console.SetCursorPosition(3, cellIndex);
-            Console.Write("*");
+            Console.Write("O");
         }
 
-        private void SetSolvedStatusPosition()
+        private void SetGameStatusPosition()
         {
             Console.SetCursorPosition(0, 13);
         }
 
-        private void Display()
+        private void DisplayAlley()
         {
             Object[,] inputAlley = _alley._inputObjects;
             for (int i = 0; i < inputAlley.GetLength(0); i++)
             {
                 for (int j = 0; j < inputAlley.GetLength(1); j++)
                 {
-                    if (inputAlley[i, j] is Bottle[])
+                    if (inputAlley[i, j] is BowlingPins[])
                     {
-                        Bottle[] bottles = (Bottle[])inputAlley[i, j];
+                        BowlingPins[] bottles = (BowlingPins[])inputAlley[i, j];
                         for(int x = 0;x<bottles.Count();x++)
                         {
                             if (bottles[x].IsHitted == false) Console.Write("#");

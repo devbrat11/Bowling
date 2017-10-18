@@ -4,3 +4,10 @@ c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.InputAll
 c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.InputAlley\bin\Debug\Bowling.Library.pdb
 c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.InputAlley\obj\Debug\Bowling.InputAlley.dll
 c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.InputAlley\obj\Debug\Bowling.InputAlley.pdb
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.InputAlley\bin\Debug\Bowling.InputAlley.dll
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.InputAlley\bin\Debug\Bowling.InputAlley.pdb
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.InputAlley\bin\Debug\Bowling.Library.dll
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.InputAlley\bin\Debug\Bowling.Library.pdb
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.InputAlley\obj\Debug\Bowling.InputAlley.csprojResolveAssemblyReference.cache
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.InputAlley\obj\Debug\Bowling.InputAlley.dll
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.InputAlley\obj\Debug\Bowling.InputAlley.pdb

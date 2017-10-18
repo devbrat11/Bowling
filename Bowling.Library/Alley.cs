@@ -10,13 +10,11 @@ namespace Bowling.Library
     {
         Cell[] cells = new Cell[11];
 
-        public int NumberOfBottlesFall { get; private set; }
         public Object[,] _inputObjects;
         public int CurrentCellNumber { get; private set; }
 
         public Alley(Object[,] inputObjects)
         {
-            NumberOfBottlesFall = 0;
             CurrentCellNumber = 10;
             int count = 0;
             _inputObjects = inputObjects;
@@ -27,27 +25,30 @@ namespace Bowling.Library
                 {
                     cellObjects[j] = _inputObjects[i, j];
                 }
-                
-                    cells[count] = new Cell(cellObjects);
-                    count++;
+
+                cells[count] = new Cell(cellObjects);
+                count++;
             }
         }
 
-        public void BottlesHitted()
+        public int PinAction()
         {
-            int numberOfBottlesHitted=0;
+            int numberOfPinsFall = 0;
             Random random = new Random();
-            Bottle[] bottles = (Bottle[])(cells[CurrentCellNumber]._cellObjects[1]);
-            for(int i=0;i<bottles.Count();i++)
+
+            BowlingPins[] bowlingPins = (BowlingPins[])(cells[CurrentCellNumber]._cellObjects[1]);
+            for (int i = 0; i < bowlingPins.Count(); i++)
             {
-                int test = random.Next(0,9);
+                int test = random.Next(0, 9);
                 if (test % 2 == 0)
                 {
-                    bottles[i].BottleHitted();
-                    numberOfBottlesHitted++;
+                    bowlingPins[i].BottleHitted();
+                    numberOfPinsFall++;
                 }
             }
-            NumberOfBottlesFall = NumberOfBottlesFall + numberOfBottlesHitted;
+
+
+            return numberOfPinsFall;
         }
 
         public void BallMoved()
@@ -55,5 +56,5 @@ namespace Bowling.Library
             CurrentCellNumber--;
         }
     }
-        
+
 }

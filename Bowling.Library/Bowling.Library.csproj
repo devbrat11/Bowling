@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -41,7 +42,7 @@
   <ItemGroup>
     <Compile Include="Alley.cs" />
     <Compile Include="Ball.cs" />
-    <Compile Include="Bottle.cs" />
+    <Compile Include="BowlingPins.cs" />
     <Compile Include="Boundary.cs" />
     <Compile Include="Cell.cs" />
     <Compile Include="Game.cs" />

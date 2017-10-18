@@ -18,23 +18,18 @@ namespace Bowling.UI
             int numberOfThrow = 3;
             int count = 0;
             Game game = new Game();
-            Alley alley ;
-            Ball ball  ;
+            AlleyPrinter printer = new AlleyPrinter();
             while (count < numberOfThrow)
             {
-                alley = new Alley(alleyObjects.GetInputAlley());
-                ball = new Ball(alley);
-                AlleyPrinter printer = new AlleyPrinter(alley, ball);
-                ball.ThrowBall();
-                numberOfBottlesFallInEachThrow[count] = alley.NumberOfBottlesFall;
+                game = new Game(alleyObjects.GetInputAlley());
+                game.ThrowNumber = count + 1;
+                printer = new AlleyPrinter(game);
+                game.Bowling();
+                System.Threading.Thread.Sleep(1000);
                 count++;
-                Console.WriteLine("Throw # " + (count));
-                Console.WriteLine("Number of Fallen Bottles: " + numberOfBottlesFallInEachThrow[count-1]);
-                System.Threading.Thread.Sleep(2000);
             }
-
-            Console.WriteLine("\nTotal Score :" + game.CalculateScore(numberOfBottlesFallInEachThrow));
-           
+            game.CalculateScore();
+            printer.DisplayScore();
         }
     }
 }

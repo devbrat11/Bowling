@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Bowling.Library
 {
-    public class Bottle
+    public class BowlingPins
     {
         public bool IsHitted { get; private set; }
 
-        public Bottle(bool hitStatus)
+        public BowlingPins(bool hitStatus)
         {
             IsHitted = hitStatus;
         }

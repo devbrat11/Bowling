@@ -10,3 +10,15 @@ c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.UI\bin\D
 c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.UI\bin\Debug\Bowling.Printer.pdb
 c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.UI\obj\Debug\Bowling.UI.exe
 c:\users\z003u7pt\documents\visual studio 2013\Projects\Bowling\Bowling.UI\obj\Debug\Bowling.UI.pdb
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.UI\bin\Debug\Bowling.UI.exe.config
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.UI\obj\Debug\Bowling.UI.exe
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.UI\obj\Debug\Bowling.UI.pdb
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.UI\bin\Debug\Bowling.UI.exe
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.UI\bin\Debug\Bowling.UI.pdb
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.UI\bin\Debug\Bowling.InputAlley.dll
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.UI\bin\Debug\Bowling.Library.dll
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.UI\bin\Debug\Bowling.Printer.dll
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.UI\bin\Debug\Bowling.InputAlley.pdb
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.UI\bin\Debug\Bowling.Library.pdb
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.UI\bin\Debug\Bowling.Printer.pdb
+C:\Users\Z003U7PT\Documents\My Projects\Bowling\Bowling.UI\obj\Debug\Bowling.UI.csprojResolveAssemblyReference.cache

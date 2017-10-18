@@ -13,8 +13,8 @@ namespace Bowling.InputAlley
         Boundary[] CloseBound = new Boundary[5];
         Boundary Boundary = new Boundary(false);
         Space[] CellSpaces = new Space[5];
-        Bottle[] AlleyBotl1 = new Bottle[5];
-        Bottle[] AlleyBotl2 = new Bottle[5];
+        BowlingPins[] AlleyBotl1 = new BowlingPins[5];
+        BowlingPins[] AlleyBotl2 = new BowlingPins[5];
 
         public Object[,] GetInputAlley()
         {
@@ -40,11 +40,11 @@ namespace Bowling.InputAlley
         {
             for (int i = 0; i < AlleyBotl1.Count(); i++)
             {
-                AlleyBotl1[i] = new Bottle(false);
+                AlleyBotl1[i] = new BowlingPins(false);
             }
             for (int i = 0; i < AlleyBotl2.Count(); i++)
             {
-                AlleyBotl2[i] = new Bottle(false);
+                AlleyBotl2[i] = new BowlingPins(false);
             }
             for (int i = 0; i < CellSpaces.Count(); i++)
             {

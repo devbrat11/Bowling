@@ -12,34 +12,51 @@ namespace Bowling.Library
         Alley _alley;
         public event Action Move;
         public event Action Hit;
-        
+
+        public int NumberOfBottlesFall { get; private set; }
         public int LocationCell { get; private set; }
+
+        private bool IsBallHitPins
+        {
+            get
+            {
+                if (LocationCell <= 2 && LocationCell > 0) return true;
+                else return false;
+            }
+
+        }
+
+        private bool IsBallHitEndOfAlley
+        {
+            get
+            {
+                if (LocationCell == 1) return true;
+                else return false;
+            }
+        }
 
         public Ball(Alley alley)
         {
+            NumberOfBottlesFall = 0;
             _alley = alley;
             LocationCell = _alley.CurrentCellNumber;
         }
 
         public void ThrowBall()
         {
-            while (!IsBallHit())
+            while (!IsBallHitEndOfAlley)
             {
                 BallMoved();
-                if (LocationCell == 2) Hit();
+                if (IsBallHitPins) StrikePins();
             }
-           // Hit();
-           // BallMoved();
-            Hit();
-
         }
 
-        private bool IsBallHit()
+        private void StrikePins()
         {
-            if (LocationCell == 1) return true;
-            else return false;
+            NumberOfBottlesFall = NumberOfBottlesFall+_alley.PinAction();
+            Hit();
         }
-        
+
         private void BallMoved()
         {
             LocationCell--;
@@ -47,7 +64,6 @@ namespace Bowling.Library
             Move();
 
         }
-
 
     }
 }
