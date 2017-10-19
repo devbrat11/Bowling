@@ -41,15 +41,15 @@ namespace Bowling.Library
                 if (value == 10 && perfectHit != true)
                 {
                     if (chance == 1) Score = Score + 10;
-                    else if (chance == 2) Score = Score - 3;
-                    else Score = Score - 6;
+                    else if (chance == 2) Score = Score +7;
+                    else Score = Score + 4;
                     perfectHit = true;
                 }
-                else if (value < 10 && value > 6)
+                else if (value < 10 && value > 6 && perfectHit!=true)
                 {
                     Score = Score + 2;
                 }
-                else if (value < 7 && value > 0)
+                else if (value < 7 && value > 0 && perfectHit != true)
                 {
                     Score = Score + 1;
                 }
